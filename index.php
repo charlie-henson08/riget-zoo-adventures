@@ -24,16 +24,16 @@
         </section>
 
         <header>
-            <a href="index.html"><img class="logo" src="assets/images/preset/Logo.png" alt="Site Logo"></a>
+            <a href="index.php"><img class="logo" src="assets/images/preset/Logo.png" alt="Site Logo"></a>
             <nav class="tabs">
-                <a href="plan-your-visit/index.html">Plan Your Visit</a>
-                <a href="membership/index.html">Membership</a>
-                <a href="education/index.html">Education</a>
-                <a href="booking/index.html">Booking</a>
+                <a href="plan-your-visit/index.php">Plan Your Visit</a>
+                <a href="membership/index.php">Membership</a>
+                <a href="education/index.php">Education</a>
+                <a href="booking/index.php">Booking</a>
             </nav>
             <div class="signuplogin">
-                <div><a href="accounts/signup.html">Sign Up</a></div>
-                <div><a href="accounts/login.html">Log In</a></div>
+                <div><a href="accounts/signup.php">Sign Up</a></div>
+                <div><a href="accounts/login.php">Log In</a></div>
             </div>
         </header>
         
@@ -50,21 +50,21 @@
                 <img class="cardimg" src="assets/images/homepage/planYourVisitImage.jpg" alt="Child Feeding Animal" width="400" height="300">
                 <h2><u>Plan Your Visit</u></h2>
                 <p>Start your adventure by planning your visit.</p>
-                <a class="next" href="/plan-your-visit/index.html"><img class="next" src="assets/images/preset/Next.png"></a>
+                <a class="next" href="/plan-your-visit/index.php"><img class="next" src="assets/images/preset/Next.png"></a>
             </div>
     
             <div class="card">
                 <img class="cardimg" src="assets/images/homepage/lion.png" alt="Lion" width="400" height="300">
                 <h2><u>Animal</u></h2>
                 <p>Discover the amazing animals at our zoo.</p>
-                <a class="next" href="education/index.html"><img class="next" src="assets/images/preset/Next.png"></a>
+                <a class="next" href="education/index.php"><img class="next" src="assets/images/preset/Next.png"></a>
             </div>
     
             <div class="card">
                 <img class="cardimg" src="assets/images/homepage/zoothemedhotel.png" alt="Zoo Themed Hotel" width="400" height="300">
                 <h2><u>Zoo Themed Hotels</u></h2>
                 <p>Make your visit magical with an overnight stay.</p>
-                <a  href="booking/index.html"><img class="next" src="assets/images/preset/Next.png"></a>
+                <a  href="booking/index.php"><img class="next" src="assets/images/preset/Next.png"></a>
             </div>
         </section>
         
@@ -72,18 +72,18 @@
             <div class="footer-container">
                 <div>
                     <h2>Contact Us</h2>
-                    <a href="policies/index.html">Cookie Policy</a>
-                    <br><a href="policies/index.html/#privacy">Privacy Policy</a>
-                    <br><a href="policies/index.html/#equality">Equality and Diversity Policy</a>
+                    <a href="policies/index.php">Cookie Policy</a>
+                    <br><a href="policies/index.php/#privacy">Privacy Policy</a>
+                    <br><a href="policies/index.php/#equality">Equality and Diversity Policy</a>
                     <br><a href="policies/#terms-conditions">Terms & Conditions</a>
                     <br><a href="policies/#modern-slavery">Modern Slavery Statement</a>
                 </div>
                 <div><img src="assets/images/preset/Logo.png"></div>
                 <div>
                     <h2>Contact Us</h2>
-                    <a href="policies/index.html"><img src="assets/images/preset/footer/tiktok.png"></a>
-                    <a href="policies/index.html"><img src="assets/images/preset/footer/insta.png"></a>
-                    <a href="policies/index.html"><img src="assets/images/preset/footer/x.png"></a>                    
+                    <a href="policies/index.php"><img src="assets/images/preset/footer/tiktok.png"></a>
+                    <a href="policies/index.php"><img src="assets/images/preset/footer/insta.png"></a>
+                    <a href="policies/index.php"><img src="assets/images/preset/footer/x.png"></a>                    
                 </div>
             </div>
         </footer>

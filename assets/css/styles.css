@@ -341,5 +341,115 @@ footer {
 
 
 .signuplogin-container {
-    
+    width: 50vw;
+    height: 60vh;
+    background-color: #5B7553;
+
+
+
+/* Auth / Login styles (mobile-first) */
+.auth-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 12vh 1rem 4rem;
 }
+
+.auth-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.auth-card {
+    background: #FFFFFF;
+    padding: 2.5rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(33,33,33,0.12);
+    text-align: center;
+    color: #1F2716;
+}
+
+.logo-small {
+    width: 84px;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.auth-card > h1 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+    color: #1F2716;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    text-align: left;
+}
+
+.auth-form label {
+    font-size: 13px;
+    color: #414A37;
+    margin-bottom: 0.25rem;
+}
+
+.auth-form input[type="email"], .auth-form input[type="password"] {
+    padding: 0.9rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+}
+
+.auth-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.25rem 0 1rem;
+    font-size: 14px;
+    color: #414A37;
+}
+
+.remember {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.forgot {
+    color: #5B7553;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background: #5B7553;
+    color: #F3EBE2;
+    border: none;
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+.signup-cta {
+    margin-top: 1rem;
+    font-size: 14px;
+    color: #1F2716;
+}
+
+.signup-cta a {
+    color: #5B7553;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+@media (min-width: 800px) {
+    .auth-container { max-width: 480px; }
+    .auth-card { padding: 3rem; }
+}
+}
+

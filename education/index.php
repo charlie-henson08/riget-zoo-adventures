@@ -25,16 +25,16 @@
         </section>
 
         <header>
-            <a href="../index.html"><img class="logo" src="../assets/images/preset/Logo.png" alt="Site Logo"></a>
+            <a href="../index.php"><img class="logo" src="../assets/images/preset/Logo.png" alt="Site Logo"></a>
             <nav class="tabs">
-                <a href="../plan-your-visit/index.html">Plan Your Visit</a>
-                <a href="../membership/index.html">Membership</a>
+                <a href="../plan-your-visit/index.php">Plan Your Visit</a>
+                <a href="../membership/index.php">Membership</a>
                 <a href="">Education</a>
-                <a href="../booking/index.html">Booking</a>
+                <a href="../booking/index.php">Booking</a>
             </nav>
             <div class="signuplogin">
-                <div>Sign Up</div>
-                <div>Log in</div>
+                <div><a href="../accounts/signup.php">Sign Up</a></div>
+                <div><a href="../accounts/login.php">Log In</a></div>
             </div>
         </header>
         
@@ -57,18 +57,18 @@
             <div class="footer-container">
                 <div>
                     <h2>Contact Us</h2>
-                    <a href="../policies/index.html">Cookie Policy</a>
-                    <br><a href="../policies/index.html/#privacy">Privacy Policy</a>
-                    <br><a href="../policies/index.html/#equality">Equality and Diversity Policy</a>
+                    <a href="../policies/index.php">Cookie Policy</a>
+                    <br><a href="../policies/index.php/#privacy">Privacy Policy</a>
+                    <br><a href="../policies/index.php/#equality">Equality and Diversity Policy</a>
                     <br><a href="../policies/#terms-conditions">Terms & Conditions</a>
                     <br><a href="../policies/#modern-slavery">Modern Slavery Statement</a>
                 </div>
                 <div><img src="../assets/images/preset/Logo.png"></div>
                 <div>
                     <h2>Contact Us</h2>
-                    <a href="../policies/index.html"><img src="../assets/images/preset/footer/tiktok.png"></a>
-                    <a href="../policies/index.html"><img src="../assets/images/preset/footer/insta.png"></a>
-                    <a href="../policies/index.html"><img src="../assets/images/preset/footer/x.png"></a>                    
+                    <a href="../policies/index.php"><img src="../assets/images/preset/footer/tiktok.png"></a>
+                    <a href="../policies/index.php"><img src="../assets/images/preset/footer/insta.png"></a>
+                    <a href="../policies/index.php"><img src="../assets/images/preset/footer/x.png"></a>                    
                 </div>
             </div>
         </footer>
