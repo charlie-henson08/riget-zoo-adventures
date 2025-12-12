@@ -16,7 +16,7 @@
                     <h1>Sign Up!</h1>
                     <p>Create Your ForecastPro Account Now!</p>
 
-                    <form action="proccesses/process-signup.php" method="post" class="signup-form" id="signupForm" novalidate>
+                    <form action="processes/process-signup.php" method="post" class="signup-form" id="signupForm" novalidate>
                         <h3>Name</h3>
                         <input type="text" id="name" name="name" required>
                     
@@ -36,7 +36,7 @@
 
                 
                     <?php
-                        $db = new PDO(dsn: 'sqlite:database.db');
+                        $db = new PDO(dsn: 'sqlite:database/database.db');
                         $db->setAttribute(attribute: PDO::ATTR_ERRMODE, value: PDO::ERRMODE_EXCEPTION);
 
                         $sql = "CREATE TABLE IF NOT EXISTS users (

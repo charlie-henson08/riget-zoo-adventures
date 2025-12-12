@@ -23,8 +23,8 @@
 
                         <h3>Password</h3>
                         <input type="password" id="password" name="password" required>
-                        <a href="https://google.com"><p>Forgotten your password?</p></a>
                         <div id="passwordError" class="error-message">Password is required</div>
+                        <a href="https://google.com"><p>Forgotten your password?</p></a>
 
                         <button type="submit">Log in</button>
                         <a href="signup.php"><p>Don't Have An Account? Sign Up</p></a>

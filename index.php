@@ -9,19 +9,31 @@
 
     <body>
         <div class="page">
+                        <?php
+            if (session_status() === PHP_SESSION_NONE) session_start();
+            ?>
             <header>
                 <div class="header-left"></div>
-                <a href="index.php"><img class="logo" src="assets/images/Logo.png" alt="Site Logo"></a>
+                <a href=""><img class="logo" src="assets/images/Logo.png" alt="Site Logo"></a>
                 <nav class="tabs" id="nav-menu">
                     <a href="plan-your-visit/index.php">Plan Your Visit</a>
                     <a href="membership/index.php">Membership</a>
                     <a href="education/index.php">Education</a>
                     <a href="booking/index.php">Booking</a>
+                    <?php if (isset($_SESSION['user'])): ?>
+                        <a href="loyalty/index.php">Loyalty</a>
+                    <?php endif; ?>
                 </nav>
+                <?php if (!isset($_SESSION['user'])): ?>
                 <div class="signuplogin">
                     <div><a href="accounts/signup.php">Sign Up</a></div>
                     <div><a href="accounts/login.php">Log In</a></div>
                 </div>
+                <?php else: ?>
+                <div class="signuplogin">
+                    <div><a href="accounts/processes/logout.php">Log Out</a></div>
+                </div>
+                <?php endif; ?>
                 <div class="header-left"></div>
             </header>
 
